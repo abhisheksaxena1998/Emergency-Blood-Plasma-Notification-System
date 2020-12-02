@@ -2,7 +2,7 @@
 
 ## Installation Guide.
 
-![How to install](/How to/howtouse.gif)
+![How to install](/howTo/howtouse.gif)
 
 1.	Download zip file from releases.
 2.	Extract the zip file.
