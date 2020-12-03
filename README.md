@@ -25,6 +25,10 @@
 
 ## API Usage.
 
+Deployed on heroku an application that reverse geocodes coordinates to provide city and state
+
+https://revgeoapi.herokuapp.com/
+
 For Instance:
 
     https://revgeoapi.herokuapp.com/result?LAT=28.6139&LON=77.2090
