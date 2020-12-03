@@ -63,7 +63,7 @@ chrome.tabs.query({'active': true, 'lastFocusedWindow': true, 'currentWindow': t
                     function show() {
   
                         new Notification("Donor found nearby !!", {
-                          icon: 'life.jpg',
+                          icon: 'unnamed1.png',
                           body: obj.allusers.length+' Donor found nearby in ' + c + '\nLatitude: '+ la + ' Longitude: '+ lo+ acc,
                           requireInteraction: true
                         }).onclick = (e) => {

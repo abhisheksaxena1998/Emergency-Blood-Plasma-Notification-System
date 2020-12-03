@@ -6,7 +6,7 @@
     
  "name":"Serum Ledger",
  "description":"Emergency notification system",
- "version":"1.0.0",
+ "version":"3.0.0",
  "icons":{"128":"unnamed1.png"},
  "browser_action": {
      "default_icon": "unnamed1.png",
