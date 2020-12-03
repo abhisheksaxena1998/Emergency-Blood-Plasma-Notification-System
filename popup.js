@@ -2,7 +2,11 @@
 
 chrome.tabs.query({'active': true, 'lastFocusedWindow': true, 'currentWindow': true}, function (tabs) {
     var url = tabs[0].url;
-    theUrl="https://node-blood-donation-app.herokuapp.com/getdonors/api?location=delhi";//+url;
+    var c;
+    var la;
+    var lo;
+    var acc;
+    //theUrl="https://node-blood-donation-app.herokuapp.com/getdonors/api?location=delhi";//+url;
     //theUrl2="https://mudvfinalradar.eu-gb.cf.appdomain.cloud/result?url="+url;
     //console.log(url);
     //alert ("Hello")
@@ -23,20 +27,25 @@ chrome.tabs.query({'active': true, 'lastFocusedWindow': true, 'currentWindow': t
           console.log(`Latitude : ${crd.latitude}`);
           console.log(`Longitude: ${crd.longitude}`);
           console.log(`More or less ${crd.accuracy} meters.`);
-          alert (`Latitude : ${crd.latitude} Longitude: ${crd.longitude}`)
-        }
-        
-        function error(err) {
-          console.warn(`ERROR(${err.code}): ${err.message}`);
-        }
-        
-        navigator.geolocation.getCurrentPosition(success, error, options);        
-        // Geolocation available
-       } 
-        //fetch(theUrl2)
+          la=crd.latitude
+          lo=crd.longitude
+          acc=" More or less "+crd.accuracy+ " meters accuracy"
+          theUrl2="https://revgeoapi.herokuapp.com/result?LAT="+crd.latitude+"&LON="+crd.longitude;
+          //alert (theUrl2)
+          fetch(theUrl2)
+            .then((response) => {
+              //alert (response.json().allusers.length)
+                return response.json();
 
-        //console.log("Script Started");
-        var obj;
+            })
+            
+            .then((myJson) => {
+                obj = myJson;
+                c=obj.city
+                //alert (obj.city)
+                theUrl="https://node-blood-donation-app.herokuapp.com/getdonors/api?location="+obj.city;
+                //alert (theUrl)
+                var obj;
 
         fetch(theUrl)
             .then((response) => {
@@ -55,7 +64,8 @@ chrome.tabs.query({'active': true, 'lastFocusedWindow': true, 'currentWindow': t
   
                         new Notification("Donor found nearby !!", {
                           icon: 'life.jpg',
-                          body: 'Donor found nearby\nClick to see detailed tracking information'
+                          body: obj.allusers.length+' Donor found nearby in ' + c + '\nLatitude: '+ la + ' Longitude: '+ lo+ acc,
+                          requireInteraction: true
                         }).onclick = (e) => {
                           window.open("https://node-blood-donation-app.herokuapp.com/track");
                       }
@@ -68,7 +78,7 @@ chrome.tabs.query({'active': true, 'lastFocusedWindow': true, 'currentWindow': t
                       // Conditionally initialize the options.
                       if (!localStorage.isInitialized) {
                         localStorage.isActivated = true;   // The display activation.
-                        localStorage.frequency = 10;        // The display frequency, in minutes.
+                        localStorage.frequency = 20;        // The display frequency, in minutes.
                         localStorage.isInitialized = true; // The option initialization.
                       }
                       
@@ -88,7 +98,22 @@ chrome.tabs.query({'active': true, 'lastFocusedWindow': true, 'currentWindow': t
                 }
                
 
-            }); 
+            });
+              }); 
+          //alert (`Latitude : ${crd.latitude} Longitude: ${crd.longitude}`)
+        }
+        
+        function error(err) {
+          console.warn(`ERROR(${err.code}): ${err.message}`);
+        }
+        
+        navigator.geolocation.getCurrentPosition(success, error, options);        
+        // Geolocation available
+       } 
+        //fetch(theUrl2)
+
+        //console.log("Script Started");
+         
         //console.log(obj);
 
         
