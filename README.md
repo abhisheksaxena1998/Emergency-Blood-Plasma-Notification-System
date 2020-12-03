@@ -4,7 +4,7 @@
 
 <br>
 <a href="https://github.com/abhisheksaxena1998/">
-  <img align="center" src="/howTo/popupimage.png" height="400rem" />
+  <img align="center" src="/howTo/popupimage.png" height="440rem" />
 </a>
 <a href="https://github.com/abhisheksaxena1998/">
   <img align="center" src="/howTo/SLimage.png" height="260rem"/>
