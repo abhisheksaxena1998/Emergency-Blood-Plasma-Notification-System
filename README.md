@@ -1,5 +1,9 @@
 # Emergency Notification System
 
+## Live Demonstration
+
+![demo](/howTo/DesktopNotificationDemov2.gif)
+
 ## Installation Guide.
 
 ![How to install](/howTo/howtouse.gif)
