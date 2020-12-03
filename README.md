@@ -2,8 +2,16 @@
 
 ### An always on extension that detects live location (Latitude, Longitude) reverse geocodes it and notifies if there are any acceptors and donors in vicinity with measured accuracy.
 
-![demo](/howTo/popupimage.jpg)
-![demo](/howTo/SLimage.jpg)
+<br>
+<a href="https://github.com/abhisheksaxena1998/">
+  <img align="center" src="/howTo/popupimage.png" height="400rem" />
+</a>
+<a href="https://github.com/abhisheksaxena1998/">
+  <img align="center" src="/howTo/SLimage.png" height="260rem"/>
+</a>
+
+
+![demo](/howTo/popupimage.png) ![demo](/howTo/SLimage.png)
 
 
 
