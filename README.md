@@ -10,11 +10,6 @@
   <img align="center" src="/howTo/SLimage.png" height="260rem"/>
 </a>
 
-
-![demo](/howTo/popupimage.png) ![demo](/howTo/SLimage.png)
-
-
-
 ## Live Demonstration
 
 ![demo](/howTo/DesktopNotificationDemov2.gif)
