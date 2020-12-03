@@ -9,4 +9,6 @@
 3.	Turn on developer mode in your Browser.
 4. Load unpacked browser extension.
 
-    
+## API Usage.
+
+![API Usage](/howTo/APIUsage.gif)
