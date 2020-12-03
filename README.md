@@ -12,5 +12,3 @@
 ## API Usage.
 
 ![API Usage](/howTo/APIUsage.gif)
-
-
