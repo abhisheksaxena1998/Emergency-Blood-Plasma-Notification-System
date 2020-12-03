@@ -12,7 +12,13 @@
 
 ## Live Demonstration
 
+### Desktop Notification Demonstration
+
 ![demo](/howTo/DesktopNotificationDemov2.gif)
+
+### Direct Tracking Demonstration
+
+![demo](/howTo/DesktopNotificationDemov3.gif)
 
 ## Installation Guide.
 
