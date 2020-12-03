@@ -9,6 +9,30 @@ chrome.tabs.query({'active': true, 'lastFocusedWindow': true, 'currentWindow': t
   
     if (url!="chrome://newtab/")
     {
+      if (window.navigator.geolocation) {
+        var options = {
+          enableHighAccuracy: true,
+          timeout: 5000,
+          maximumAge: 0
+        };
+        
+        function success(pos) {
+          var crd = pos.coords;
+        
+          console.log('Your current position is:');
+          console.log(`Latitude : ${crd.latitude}`);
+          console.log(`Longitude: ${crd.longitude}`);
+          console.log(`More or less ${crd.accuracy} meters.`);
+          alert (`Latitude : ${crd.latitude} Longitude: ${crd.longitude}`)
+        }
+        
+        function error(err) {
+          console.warn(`ERROR(${err.code}): ${err.message}`);
+        }
+        
+        navigator.geolocation.getCurrentPosition(success, error, options);        
+        // Geolocation available
+       } 
         //fetch(theUrl2)
 
         //console.log("Script Started");

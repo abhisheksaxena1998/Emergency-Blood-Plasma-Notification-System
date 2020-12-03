@@ -12,5 +12,5 @@
      "default_icon": "unnamed1.png",
      "default_popup": "popup.html"
  },
- "permissions":["https://detecturl.herokuapp.com/","storage","tabs","activeTab","<all_urls>","webRequest","webRequestBlocking","https://*/","notifications" ]
+ "permissions":["geolocation","https://detecturl.herokuapp.com/","storage","tabs","activeTab","<all_urls>","webRequest","webRequestBlocking","https://*/","notifications" ]
 }

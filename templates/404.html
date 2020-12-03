@@ -1,0 +1,43 @@
+{% extends 'index.html' %}
+{% block title %}Page Not Found{% endblock %}
+{% block content %}
+</br></br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6" style="margin: 0 auto;">
+            <!-- Card -->
+            <div class="card" style="margin-bottom: 1rem;">
+
+                <!-- Card image -->
+                
+
+                <!-- Card content -->
+                <div class="card-body">
+
+                    <!-- Title -->
+                    <h4 class="card-title" style="text-align: center;margin: 0 auto;"></h4>
+                    <!-- Text -->
+                    <p class="card-text" style="text-align:center">
+                        
+                    </p>
+                    <!-- Button -->
+                </div>
+
+            </div>
+            <!-- Card -->
+        </div>
+
+    </div>
+    <script>
+        Swal.fire(
+    'ERROR NOT ACCESSIBLE!',
+      'ONLY APIs CAN BE USED',
+      'warning')
+    </script>
+    <div class="row" style="margin-bottom: 1rem;">
+        <a href="/" class="btn btn-primary" style="margin: 0 auto;display: block;">Home</a>
+    </div>
+
+    
+
+{% endblock %}
