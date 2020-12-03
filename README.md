@@ -1,5 +1,11 @@
 # Emergency Notification System
 
+### An always on extension that detects live location (Latitude, Longitude) reverse geocodes it and notifies if there are any acceptors and donors in vicinity with measured accuracy.
+
+## Live Demonstration
+
+![demo](/howTo/DesktopNotificationDemov2.gif)
+
 ## Installation Guide.
 
 ![How to install](/howTo/howtouse.gif)
