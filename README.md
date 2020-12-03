@@ -25,4 +25,8 @@
 
 ## API Usage.
 
+For Instance:
+
+    https://revgeoapi.herokuapp.com/result?LAT=28.6139&LON=77.2090
+
 ![API Usage](/howTo/APIUsage.gif)
