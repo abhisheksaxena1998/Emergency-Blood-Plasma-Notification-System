@@ -22,8 +22,20 @@ Jupyter Notebook at: https://colab.research.google.com/github/abhisheksaxena1998
   <img align="center" src="/howTo/popupimage.png" height="440rem" />
 </a>
 <a href="https://github.com/abhisheksaxena1998/">
-  <img align="center" src="/howTo/SLimage.png" height="260rem"/>
+  <img align="right" src="/howTo/SLimage.png" height="220rem"/>
 </a>
+
+### Desktop Notifications:
+
+<a href="https://github.com/abhisheksaxena1998/">
+  <img align="center" src="/howTo/notif.png" height="198rem"/>
+</a>
+<a href="https://github.com/abhisheksaxena1998/">
+  <img align="right" src="/howTo/desktopnotif2.png" height="200rem"/>
+</a>
+
+
+
 
 ## Live Demonstration
 
