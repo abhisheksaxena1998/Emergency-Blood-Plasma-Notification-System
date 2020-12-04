@@ -2,6 +2,10 @@
 
 ### An always on extension that detects live location (Latitude, Longitude) reverse geocodes it and notifies if there are any acceptors and donors in vicinity with measured accuracy.
 
+## System Architecture And Design
+
+![demo](/howTo/Artitecture.gif)
+
 ### Overview
 
 ![demo](/howTo/DesktopNotificationDemov4.gif)
