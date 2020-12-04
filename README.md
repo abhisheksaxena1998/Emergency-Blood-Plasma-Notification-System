@@ -1,4 +1,6 @@
-# Emergency Notification System
+# Emergency Notification System       
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=abhisheksaxena1998/Emergency-Blood-Plasma-Notification-System)
 
 ### An always on extension that detects live location (Latitude, Longitude) reverse geocodes it and notifies if there are any acceptors and donors in vicinity with measured accuracy.
 
