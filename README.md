@@ -8,7 +8,7 @@ Jupyter Notebook at: https://colab.research.google.com/github/abhisheksaxena1998
 
 ## System Architecture And Design
 
-![demo](/howTo/Artitecture.gif)
+![demo](/howTo/Artitecturev1.gif)
 
 ### Overview
 
