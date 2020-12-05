@@ -13,7 +13,7 @@ Jupyter Notebook at: https://colab.research.google.com/github/abhisheksaxena1998
 
 ![demo](/howTo/Artitecturev1.gif)
 
-### Overview
+## Overview
 
 ![demo](/howTo/DesktopNotificationDemov4.gif)
 
@@ -25,7 +25,7 @@ Jupyter Notebook at: https://colab.research.google.com/github/abhisheksaxena1998
   <img align="right" src="/howTo/SLimage.png" height="220rem"/>
 </a>
 
-### Desktop Notifications:
+## Desktop Notifications:
 
 <a href="https://github.com/abhisheksaxena1998/">
   <img align="center" src="/howTo/notif.png" height="198rem"/>
