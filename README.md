@@ -67,3 +67,15 @@ For Instance:
     https://revgeoapi.herokuapp.com/result?LAT=28.6139&LON=77.2090
 
 ![API Usage](/howTo/APIUsage.gif)
+
+Endpoint to return information of all users.
+
+    https://node-blood-donation-app.herokuapp.com/getallusers
+    
+Endpoint to search users in a given location.
+
+    https://node-blood-donation-app.herokuapp.com/getdonors/api?location=Delhi
+    
+    Generic: https://node-blood-donation-app.herokuapp.com/getdonors/api?location={SEARCH_LOCATION_HERE}
+
+Application link to register users: https://node-blood-donation-app.herokuapp.com/
